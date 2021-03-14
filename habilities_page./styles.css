@@ -118,7 +118,8 @@ main {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  position: fixed;
+  margin: 13% auto;
 }
 .sidenav li {
   margin-left: -30px;
