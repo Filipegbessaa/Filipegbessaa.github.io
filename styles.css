@@ -6,7 +6,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: 1fr 20fr 1fr;
-  grid-template-rows: 95vh 5vh;
+  grid-template-rows: 97vh 3vh;
   grid-template-areas:
     "sidebar main socialmedia-links"
     "footer footer footer";
@@ -90,7 +90,22 @@ main {
 
 .socialmedia-links {
   grid-area: socialmedia-links;
+  display: flex;
+  flex-direction: column;
   background: blue;
+  margin: auto 0;
+}
+
+.socialmedia-links ul {
+  list-style-type: none;
+}
+.socialmedia-links li {
+  margin: 20px 20px;
+}
+.socialmedia-links i {
+  font-size: 50px;
+  color: white;
+  margin: 0px;
 }
 
 footer {
