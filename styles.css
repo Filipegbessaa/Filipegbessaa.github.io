@@ -12,6 +12,7 @@ body {
     "footer footer footer";
 }
 
+/* Begin main content */
 main {
   background: #f7f9fa;
   grid-area: main;
@@ -38,6 +39,7 @@ h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
+/* End main content */
 
 /* The sidebar menu */
 .sidenav {
@@ -159,6 +161,7 @@ h3 {
 }
 /* end social media links */
 
+/* Begin footer */
 footer {
   grid-area: footer;
   background: #0c0c0c;
@@ -170,3 +173,4 @@ footer {
   display: flex;
   align-items: center;
 }
+/* End footer */
