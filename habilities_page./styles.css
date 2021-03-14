@@ -83,6 +83,11 @@ main {
 #python {
   background: url("../assets/python.jpg");
 }
+#javascript {
+  background: url("../assets/javascript.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .card-text {
   grid-area: text;
