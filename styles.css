@@ -1,22 +1,25 @@
 body {
   background: #f7f9fa;
+  margin: 0;
 }
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 90vh 10vh;
+  grid-template-columns: 1fr 20fr 1fr;
+  grid-template-rows: 95vh 5vh;
+  grid-template-areas:
+    "sidebar main socialmedia-links"
+    "footer footer footer";
 }
 
 main {
   background: red;
+  grid-area: main;
 }
 
 /* The sidebar menu */
 .sidenav {
-  height: 100%;
-  width: 80px;
-  position: fixed;
+  grid-area: sidebar;
   z-index: 1;
   top: 0;
   left: 0;
@@ -86,9 +89,11 @@ main {
 }
 
 .socialmedia-links {
+  grid-area: socialmedia-links;
   background: blue;
 }
 
 footer {
+  grid-area: footer;
   background: purple;
 }
