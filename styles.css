@@ -102,9 +102,27 @@ main {
   padding: 10px;
 }
 .socialmedia-links i {
-  font-size: 50px;
+  font-size: 30px;
   color: white;
   margin: 0px;
+}
+#github {
+  background: #a7aaad;
+}
+#github:hover {
+  background: #24292e;
+}
+#linkedin {
+  background: #99cbfa;
+}
+#linkedin:hover {
+  background: #0966c2;
+}
+#instagram {
+  background: #ed94ca;
+}
+#instagram:hover {
+  background: #bf519e;
 }
 
 footer {
