@@ -77,6 +77,9 @@ main {
 #nextjs {
   background: url("../assets/nextjs.png");
 }
+#styledcomponents {
+  background: url("../assets/styledcomponents.jpeg");
+}
 
 .card-text {
   grid-area: text;
