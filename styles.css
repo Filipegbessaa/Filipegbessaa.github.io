@@ -16,6 +16,14 @@ main {
   background: #f7f9fa;
   grid-area: main;
 }
+#profilepic {
+  display: block;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 5vh;
+}
 
 /* The sidebar menu */
 .sidenav {
