@@ -66,6 +66,7 @@ p {
 
 .contactbox p {
   grid-area: information;
+  text-align: center;
 }
 
 /* End main content */
