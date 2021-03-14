@@ -74,14 +74,15 @@ main {
   background: url("../assets/bootstrap.png");
 }
 
+#nextjs {
+  background: url("../assets/nextjs.png");
+}
+
 .card-text {
   grid-area: text;
   margin: 25px;
 }
-.card-text .date {
-  color: #62daf8;
-  font-size: 13px;
-}
+
 .card-text p {
   color: grey;
   font-size: 15px;
@@ -99,7 +100,7 @@ main {
   grid-template-rows: 1fr;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  background: #62daf8;
+  background: #1a1a1a;
 }
 
 .card-stats .stat {
