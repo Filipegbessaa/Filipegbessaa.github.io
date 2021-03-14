@@ -16,9 +16,13 @@ body {
 main {
   background: #f7f9fa;
   grid-area: main;
+}
+section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-bottom: 40px;
+  margin-left: 8vw;
 }
 
 /* Begin card */
