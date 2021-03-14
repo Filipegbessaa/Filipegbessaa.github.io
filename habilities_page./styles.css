@@ -16,6 +16,9 @@ body {
 main {
   background: #f7f9fa;
   grid-area: main;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 /* Begin card */
@@ -26,6 +29,7 @@ main {
   grid-template-areas: "image" "text" "stats";
   border-radius: 18px;
   width: 300px;
+  height: 500px;
   background: white;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   text-align: center;
