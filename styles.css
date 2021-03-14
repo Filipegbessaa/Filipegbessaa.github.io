@@ -49,7 +49,8 @@ main {
   color: #f1f1f1;
 }
 
-/* Tooltip */
+/* Begin tooltip */
+
 /* Tooltip container */
 .tooltip {
   position: relative;
@@ -80,14 +81,16 @@ main {
 .tooltip .tooltiptext::after {
   content: " ";
   position: absolute;
-  top: 100%; /* At the bottom of the tooltip */
+  top: 100%;
   left: 13%;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
   border-color: black transparent transparent transparent;
 }
+/* end tooltip */
 
+/* begin social media links */
 .socialmedia-links {
   grid-area: socialmedia-links;
   display: flex;
@@ -132,6 +135,7 @@ main {
   );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
+/* end social media links */
 
 footer {
   grid-area: footer;
