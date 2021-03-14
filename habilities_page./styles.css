@@ -85,8 +85,12 @@ main {
 }
 #javascript {
   background: url("../assets/javascript.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+}
+#html {
+  background: url("../assets/html.png");
+}
+#css {
+  background: url("../assets/css.png");
 }
 
 .card-text {
