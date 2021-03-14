@@ -43,10 +43,10 @@ main {
 
 .card-image {
   grid-area: image;
-  background: url("../assets/filipeperfil.png");
+  background: url("../assets/react.png");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  background-size: cover;
+  background-size: 300px;
 }
 
 .card-text {
@@ -54,7 +54,7 @@ main {
   margin: 25px;
 }
 .card-text .date {
-  color: rgb(255, 7, 110);
+  color: #62daf8;
   font-size: 13px;
 }
 .card-text p {
@@ -70,11 +70,11 @@ main {
 .card-stats {
   grid-area: stats;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  background: rgb(255, 7, 110);
+  background: #62daf8;
 }
 
 .card-stats .stat {
