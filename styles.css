@@ -13,7 +13,7 @@ body {
 }
 
 main {
-  background: red;
+  background: #f7f9fa;
   grid-area: main;
 }
 
@@ -95,5 +95,5 @@ main {
 
 footer {
   grid-area: footer;
-  background: purple;
+  background: #262626;
 }
