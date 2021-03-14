@@ -70,39 +70,39 @@ p {
   background-repeat: no-repeat;
 }
 #react {
-  background: url("../assets/react.png");
+  background: url("../assets/cards_images/react.png");
 }
 
 #bootstrap {
-  background: url("../assets/bootstrap.png");
+  background: url("../assets/cards_images/bootstrap.png");
 }
 
 #nextjs {
-  background: url("../assets/nextjs.png");
+  background: url("../assets/cards_images/nextjs.png");
 }
 #styledcomponents {
-  background: url("../assets/styledcomponents.png");
+  background: url("../assets/cards_images/styledcomponents.png");
 }
 #python {
-  background: url("../assets/python.png");
+  background: url("../assets/cards_images/python.png");
 }
 #javascript {
-  background: url("../assets/javascript.png");
+  background: url("../assets/cards_images/javascript.png");
 }
 #html {
-  background: url("../assets/html.png");
+  background: url("../assets/cards_images/html.png");
 }
 #css {
-  background: url("../assets/css.png");
+  background: url("../assets/cards_images/css.png");
 }
 #arduino {
-  background: url("../assets/arduino.png");
+  background: url("../assets/cards_images/arduino.png");
 }
 #c {
-  background: url("../assets/c.png");
+  background: url("../assets/cards_images/c.png");
 }
 #assembly {
-  background: url("../assets/assembly.png");
+  background: url("../assets/cards_images/assembly.png");
 }
 
 .card-text {
