@@ -6,7 +6,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: 1fr 20fr 1fr;
-  grid-template-rows: 97vh 3vh;
+  grid-template-rows: 97% 3%;
   grid-template-areas:
     "sidebar main socialmedia-links"
     "footer footer footer";
@@ -34,6 +34,8 @@ main {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   text-align: center;
   font-family: "Roboto", sans-serif;
+  margin-bottom: 50px;
+  margin-left: 50px;
 
   transition: 0.5s ease;
   cursor: pointer;
