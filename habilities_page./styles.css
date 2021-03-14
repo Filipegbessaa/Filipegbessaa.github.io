@@ -17,6 +17,9 @@ main {
   background: #f7f9fa;
   grid-area: main;
 }
+p {
+  text-align: justify;
+}
 .cards {
   display: flex;
   flex-direction: row;
