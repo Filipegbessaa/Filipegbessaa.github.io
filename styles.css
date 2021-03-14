@@ -139,5 +139,6 @@ main {
 
 footer {
   grid-area: footer;
-  background: #262626;
+  background: #0c0c0c;
+  border-top: 1px solid grey;
 }
