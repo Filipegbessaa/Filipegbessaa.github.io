@@ -92,7 +92,6 @@ main {
   grid-area: socialmedia-links;
   display: flex;
   flex-direction: column;
-  background: blue;
   margin: auto 0;
 }
 
@@ -101,7 +100,6 @@ main {
 }
 .socialmedia-links li {
   padding: 10px;
-  margin: 20px 20px;
 }
 .socialmedia-links i {
   font-size: 50px;
