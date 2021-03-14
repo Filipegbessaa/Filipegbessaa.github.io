@@ -185,7 +185,9 @@ main {
   grid-area: socialmedia-links;
   display: flex;
   flex-direction: column;
-  margin: auto 0;
+  position: fixed;
+  margin-top: 18%;
+  right: 0;
 }
 
 .socialmedia-links ul {
