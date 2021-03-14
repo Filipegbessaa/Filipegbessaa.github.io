@@ -92,6 +92,15 @@ main {
 #css {
   background: url("../assets/css.png");
 }
+#arduino {
+  background: url("../assets/arduino.png");
+}
+#c {
+  background: url("../assets/c.png");
+}
+#assembly {
+  background: url("../assets/assembly.png");
+}
 
 .card-text {
   grid-area: text;
