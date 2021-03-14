@@ -80,6 +80,9 @@ main {
 #styledcomponents {
   background: url("../assets/styledcomponents.jpeg");
 }
+#python {
+  background: url("../assets/python.jpg");
+}
 
 .card-text {
   grid-area: text;
