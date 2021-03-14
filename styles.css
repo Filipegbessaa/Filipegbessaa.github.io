@@ -24,6 +24,20 @@ main {
   margin: auto;
   margin-top: 5vh;
 }
+h1 {
+  color: #39ae9f;
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+h3 {
+  color: #39ae9f;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
 
 /* The sidebar menu */
 .sidenav {
