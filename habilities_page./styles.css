@@ -60,10 +60,18 @@ main {
 
 .card-image {
   grid-area: image;
-  background: url("../assets/react.png");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: 300px;
+  height: 180px;
+  background-repeat: no-repeat;
+}
+#react {
+  background: url("../assets/react.png");
+}
+
+#bootstrap {
+  background: url("../assets/bootstrap.png");
 }
 
 .card-text {
