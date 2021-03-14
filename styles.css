@@ -1,9 +1,15 @@
-.main {
-  margin-left: 160px;
-  padding: 0px 10px;
-}
 body {
   background: #f7f9fa;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 90vh 10vh;
+}
+
+main {
+  background: red;
 }
 
 /* The sidebar menu */
@@ -77,4 +83,12 @@ body {
   border-width: 5px;
   border-style: solid;
   border-color: black transparent transparent transparent;
+}
+
+.socialmedia-links {
+  background: blue;
+}
+
+footer {
+  background: purple;
 }
