@@ -39,14 +39,14 @@ p {
   font-size: 80px;
 }
 
-.contacts {
+.cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: auto;
 }
 
-.contactbox {
+.projectcard {
   height: 400px;
   width: 400px;
   margin: auto;
@@ -54,9 +54,9 @@ p {
   grid-template-columns: 1fr;
   grid-template-rows: 50px 50px 50px;
   grid-template-areas:
-    "icon"
     "title"
-    "information";
+    "image"
+    "icons";
   background: white;
   border-radius: 15px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
@@ -65,32 +65,33 @@ p {
   margin: 30px;
 }
 
-.contactbox:hover {
+.projectcard:hover {
   transform: scale(1.05);
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
-.contactbox i {
-  grid-area: icon;
+.projectcard h2 {
+  grid-area: title;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  background: #39ae9f;
-  background-size: 300px;
+  background: #1a1a1a;
+  margin-top: 0px;
   padding-top: 10px;
   height: 40px;
   text-align: center;
   font-size: 30px;
-  color: #1a1a1a;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
 }
 
-.contactbox h3 {
-  grid-area: title;
+.projectcard .image {
+  grid-area: image;
   margin-top: 30px;
   text-align: center;
 }
 
-.contactbox p {
-  grid-area: information;
+.projectcard .icons {
+  grid-area: icons;
   text-align: center;
   margin-top: 30px;
 }
