@@ -24,14 +24,6 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
-#profilepic {
-  display: block;
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
-  margin: auto;
-}
-
 .title {
   margin-left: 5vw;
   margin-top: 50px;
