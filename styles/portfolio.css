@@ -45,6 +45,7 @@ p {
 }
 
 .projectcard {
+  text-decoration: none;
   height: 400px;
   width: 400px;
   margin: 40px;
