@@ -112,7 +112,7 @@ p {
   display: flex;
   flex-direction: column;
   position: fixed;
-  margin: 13% auto;
+  margin-top: 23vh;
 }
 .sidenav li {
   margin-left: -30px;
@@ -179,7 +179,7 @@ p {
   display: flex;
   flex-direction: column;
   position: fixed;
-  margin-top: 18%;
+  top: 35vh;
   right: 0;
 }
 
