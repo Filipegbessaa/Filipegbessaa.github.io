@@ -43,7 +43,8 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: auto 0;
+  margin: auto;
+  margin-left: 50px;
 }
 
 .contactbox {
