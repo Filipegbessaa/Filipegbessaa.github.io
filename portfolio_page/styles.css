@@ -197,6 +197,7 @@ p {
   position: absolute;
   top: 100%;
   left: 13%;
+  bottom: auto;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
@@ -333,5 +334,20 @@ footer {
     height: 300px;
     width: 300px;
     background-position: center center;
+  }
+
+  .tooltip .tooltiptext {
+    margin-top: 40px;
+  }
+  .tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%; /* At the top of the tooltip */
+    top: auto;
+    left: 13%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
   }
 }
