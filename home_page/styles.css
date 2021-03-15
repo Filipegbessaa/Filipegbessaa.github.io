@@ -179,3 +179,38 @@ footer {
   align-items: center;
 }
 /* End footer */
+
+@media (max-width: 700px) {
+  .container {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: auto 20px;
+    grid-template-rows: 80px auto 30px;
+    grid-template-areas:
+      "navbar navbar"
+      "main socialmedia-links"
+      "footer footer";
+  }
+  .sidenav {
+    grid-area: navbar;
+    z-index: 1;
+    top: 0;
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 80px;
+  }
+  .sidenav ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding: 0;
+    position: absolute;
+  }
+  .sidenav li {
+    display: inline;
+    margin: auto;
+    margin-top: 0;
+    margin-left: 5%;
+    list-style-type: none;
+  }
+}
