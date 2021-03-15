@@ -29,6 +29,12 @@ p {
   margin-top: 50px;
   font-family: "Roboto", sans-serif;
   font-size: 80px;
+  display: inline-block;
+  background: #292b2d;
+  color: white;
+  width: auto;
+  padding: 10px;
+  border-radius: 15px;
 }
 
 .cards {
