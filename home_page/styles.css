@@ -181,6 +181,9 @@ footer {
 /* End footer */
 
 @media (max-width: 700px) {
+  .title {
+    font-size: 40px;
+  }
   .container {
     display: grid;
     min-height: 100vh;
