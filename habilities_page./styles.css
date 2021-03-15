@@ -5,8 +5,9 @@ body {
 
 .container {
   display: grid;
+  min-height: 100vh;
   grid-template-columns: 1fr 20fr 1fr;
-  grid-template-rows: 97% 3%;
+  grid-template-rows: auto 30px;
   grid-template-areas:
     "sidebar main socialmedia-links"
     "footer footer footer";
