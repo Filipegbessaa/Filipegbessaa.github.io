@@ -86,16 +86,39 @@ p {
 
 .projectcard .card-image {
   grid-area: image;
-  text-align: center;
+  height: 400px;
 }
 #starvinglink {
   background: url(../assets/starving_link_game.png);
 }
+#dangerousdave {
+  background: url(../assets/dangerous_dave.png);
+  background-size: cover;
+}
+#imsproject {
+  background: url(../assets/ims_project.png);
+  background-size: cover;
+}
 
 .projectcard .icons {
   grid-area: icons;
+  background: #1a1a1a;
   text-align: center;
-  margin-top: 30px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  flex-direction: row;
+}
+.projectcard .icons i {
+  font-size: 40px;
+  color: white;
+  margin: auto;
+}
+.projectcard .icons h2 {
+  font-size: 25px;
+  color: white;
+  margin: auto;
+  vertical-align: middle;
 }
 
 /* End main content */
