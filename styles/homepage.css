@@ -119,7 +119,6 @@ h3 {
 
 /* begin social media links */
 .socialmedia-links {
-  grid-area: socialmedia-links;
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -192,7 +191,7 @@ footer {
     grid-template-rows: 80px auto 30px;
     grid-template-areas:
       "navbar navbar"
-      "main socialmedia-links"
+      "main socialmedia"
       "footer footer";
   }
   .sidenav {
@@ -210,26 +209,22 @@ footer {
     margin-top: 20px;
     padding: 0;
     position: absolute;
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
   }
   .sidenav li {
     display: inline;
     margin: auto;
-    margin-top: 0;
-    margin-left: 3%;
+    margin-top: 20px;
+    padding-right: 20px;
     list-style-type: none;
   }
   .tooltip .tooltiptext {
     margin-top: 40px;
-  }
-  .tooltip .tooltiptext::after {
-    content: " ";
-    position: absolute;
-    bottom: 100%; /* At the top of the tooltip */
-    top: auto;
-    left: 13%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent transparent black transparent;
+    display: none;
   }
 }
