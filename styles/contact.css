@@ -247,6 +247,10 @@ footer {
       "main socialmedia-links"
       "footer footer";
   }
+  .contactbox {
+    height: 250px;
+    width: 250px;
+  }
   .sidenav {
     grid-area: navbar;
     z-index: 1;
